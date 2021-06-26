@@ -1,2 +1,4 @@
-# my-notes
-A place to put my notes
+# Hello World
+
+Hello World! Hi!
+

@@ -2,4 +2,5 @@
 
 * [My Notes](README.md)
 * [Local Dev Setup](local-dev-setup.md)
+* [React Notes](react-notes.md)
 

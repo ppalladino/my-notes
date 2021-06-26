@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Hello World](README.md)
+* [My Notes](README.md)
 * [Local Dev Setup](local-dev-setup.md)
 

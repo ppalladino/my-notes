@@ -1,6 +1,6 @@
 # React Notes
 
-## Project Set Up
+## Project Set-Up
 
 ### Strict Mode <a id="strict-mode"></a>
 
@@ -28,7 +28,11 @@ render(
  Super-powers are granted randomly so please submit an issue if you're not happy with yours.
 {% endhint %}
 
-Once you're strong enough, save the world:
+### Error Boundaries
+
+{% hint style="warning" %}
+Only works with Class componets 
+{% endhint %}
 
 {% code title="hello.sh" %}
 ```bash

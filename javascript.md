@@ -1,8 +1,8 @@
 # JavaScript
 
-## This
+## this
 
-#### This - In JS Classes
+#### this - In JS Classes
 
 {% hint style="danger" %}
  The below is not confirmed

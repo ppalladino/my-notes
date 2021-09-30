@@ -6,4 +6,7 @@
 * [VS Code](vs-code.md)
 * [JavaScript](javascript.md)
 * [Links](links.md)
+* [JavaScript](javascript-1.md)
+* [Bash](bash.md)
+* [Vim](vim.md)
 

@@ -30,6 +30,10 @@ $ man <program>
 
 ```
 
+| Function | Command |
+| :--- | :--- |
+| delete file  | rm |
+
 ## iTerm2 
 
 **Shortcuts** \([https://gist.github.com/squarism/ae3613daf5c01a98ba3a](https://gist.github.com/squarism/ae3613daf5c01a98ba3a)\)

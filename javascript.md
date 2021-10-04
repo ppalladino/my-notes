@@ -2,26 +2,24 @@
 
 ## this
 
-#### this - In JS Classes
+### this - In JS Classes
 
 {% hint style="danger" %}
- The below is not confirmed
+The below is not confirmed
 {% endhint %}
 
-```
+```text
 class SomeClass {
 
    handleSomeEvent() {
       // this is undefined
    }
-   
+
    handleSomeEvent () => {
       // this - references the insance of this class
    }
-   
-   
+
+
 }
 ```
-
-
 

@@ -9,5 +9,4 @@
 * [JavaScript](javascript-1.md)
 * [Bash](bash.md)
 * [Vim](vim.md)
-* [Work - Spine notes](work-spine-notes.md)
 

@@ -1,6 +1,7 @@
 # Table of contents
 
 * [My Notes](README.md)
+* [git](git.md)
 * [Local Dev Setup](local-dev-setup.md)
 * [React Notes](react-notes.md)
 * [VS Code](vs-code.md)
@@ -9,4 +10,3 @@
 * [JavaScript](javascript-1.md)
 * [Bash](bash.md)
 * [Vim](vim.md)
-

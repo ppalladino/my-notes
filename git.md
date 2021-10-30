@@ -52,6 +52,10 @@ $ git checkout 163f833^3 -- hello.template
 ## Merging
 
 ```
+// Keeping local feature branch up to date with master
+$ git fetch origin master
+$ git rebase origin/master
+
 // merge w/ fast-forward off and will force a commit for the merge to be in 
 // history 
 $ git merge --no-ff <BRANCH_NAME>
@@ -67,7 +71,7 @@ $ git config rerere.enabled true
 $ git branch
 
 // print out references (options: --tags, --heads)
-$git show-ref 
+$ git show-ref 
 
 // print tree of git objects (if 'tree' is installed - use brew)
 $ tree .git

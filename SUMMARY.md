@@ -11,3 +11,4 @@
 * [Bash](bash.md)
 * [Vim](vim.md)
 * [Data Science](data-science.md)
+* [regex](regex.md)

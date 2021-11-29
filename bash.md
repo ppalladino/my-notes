@@ -6,7 +6,7 @@ description: Some notes on Bash
 
 ## Super Basic Common Commands
 
-```text
+```
 // What shell am I using
 
 $ echo $SHELL
@@ -27,18 +27,22 @@ $ pwd
 
 $ man <program>
 
+// remove empty folder
+$ rmdir folder-name
+
+// remove folder w/ contents
+$ rm –r folder-name
 
 ```
 
-| Function | Command |
-| :--- | :--- |
-| delete file  | rm |
+| Function     | Command |
+| ------------ | ------- |
+| delete file  | rm      |
 
-## iTerm2 
+## iTerm2&#x20;
 
-**Shortcuts** \([https://gist.github.com/squarism/ae3613daf5c01a98ba3a](https://gist.github.com/squarism/ae3613daf5c01a98ba3a)\)
+**Shortcuts** ([https://gist.github.com/squarism/ae3613daf5c01a98ba3a](https://gist.github.com/squarism/ae3613daf5c01a98ba3a))
 
-| Function | Shortcut |
-| :--- | :--- |
-| New tab | `⌘` + `T` |
-
+| Function | Shortcut  |
+| -------- | --------- |
+| New tab  | `⌘` + `T` |

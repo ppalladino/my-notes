@@ -68,7 +68,31 @@ from [https://medium.com/@viviennediegoencarnacion/getting-started-with-postgres
 
 > # add limters data
 > INSERT INTO limiters(id, skill_id, regex) VALUES (101, 101, '^(10|[1-9])\+(10|[1-9])\=?(0|[1-9]\d*)$');
+> INSERT INTO limiters(id, skill_id, regex) VALUES (102, 102, '^(10|[1-9])\-(10|[1-9])\=?(0|[1-9]\d*)$');
 
 > # get the addition
 > SELECT * FROM tags WHERE title ~ '^(10|[1-9])\+(10|[1-9])\=?(0|[1-9]\d*)$';
+
+> # match from content perspective
+> SELECT title, regex
+> FROM tags
+> INNER JOIN limiters
+>    ON title ~ regex
+>    AND content_id = 1;
+>
+> # above query returns
+> 1+2=3 | ^(10|[1-9])\+(10|[1-9])\=?(0|[1-9]\d*)$
+> 3+4=5 | ^(10|[1-9])\+(10|[1-9])\=?(0|[1-9]\d*)$
+>
+> # match from skill perspective
+> SELECT title, regex
+> FROM tags
+> INNER JOIN limiters
+>    ON title ~ regex
+>    AND skill_id = 101;
+>
+> # above query returns
+> 1+2=3 | ^(10|[1-9])\+(10|[1-9])\=?(0|[1-9]\d*)$
+> 3+4=5 | ^(10|[1-9])\+(10|[1-9])\=?(0|[1-9]\d*)$
+
 ```

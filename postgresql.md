@@ -74,7 +74,7 @@ from [https://medium.com/@viviennediegoencarnacion/getting-started-with-postgres
 > SELECT * FROM tags WHERE title ~ '^(10|[1-9])\+(10|[1-9])\=?(0|[1-9]\d*)$';
 
 > # match from content perspective
-> SELECT title, regex
+> SELECT title, regex, skill_id, content_id
 > FROM tags
 > INNER JOIN limiters
 >    ON title ~ regex
@@ -85,11 +85,7 @@ from [https://medium.com/@viviennediegoencarnacion/getting-started-with-postgres
 > 3+4=5 | ^(10|[1-9])\+(10|[1-9])\=?(0|[1-9]\d*)$
 >
 > # match from skill perspective
-> SELECT title, regex
-> FROM tags
-> INNER JOIN limiters
->    ON title ~ regex
->    AND skill_id = 101;
+> SELECT title, regex, skill_id, content_id FROM tags INNER JOIN limiters ON title ~ regex AND skill_id = 101;
 >
 > # above query returns
 > 1+2=3 | ^(10|[1-9])\+(10|[1-9])\=?(0|[1-9]\d*)$

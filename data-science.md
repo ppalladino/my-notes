@@ -67,3 +67,18 @@ $ %debug
 // get out of debug mode
 $ exit()
 ```
+
+## Data Acquisition
+
+### Some Public Data Source
+
+|                                                                                      |   |
+| ------------------------------------------------------------------------------------ | - |
+| [https://github.com/](https://github.com)                                            |   |
+| [https://www.kaggle.com/](https://www.kaggle.com)                                    |   |
+| [https://www.kdnuggets.com/](https://www.kdnuggets.com)                              |   |
+| [https://archive.ics.uci.edu/ml/index.php](https://archive.ics.uci.edu/ml/index.php) |   |
+| [https://www.data.gov/](https://www.data.gov)                                        |   |
+| [https://data.fivethirtyeight.com/](https://data.fivethirtyeight.com)                |   |
+| [https://aws.amazon.com/](https://aws.amazon.com)                                    |   |
+|                                                                                      |   |

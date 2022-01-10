@@ -14,4 +14,5 @@
 * [regex](regex.md)
 * [Firebase](firebase.md)
 * [PostgreSQL](postgresql.md)
-* [SQL](sql.md)
+* [SQL](sql/README.md)
+  * [SQL - Common Commands](sql/sql-common-commands.md)
